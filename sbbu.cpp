@@ -16,8 +16,8 @@ int main(int argc, char *argv[])
     int imax = options.read_param("-imax", 1E9);
 
     ddgp_t dgp(fname, dtol);
-    sbp_t sbp(dgp, dtol, imax);
-    sbp.solve(tmax);
-    sbp.save(fname);
+    sbbu_t sbbu(dgp, dtol, imax);
+    sbbu.solve(tmax);
+    sbbu.save(fname);
     return EXIT_SUCCESS;
 }

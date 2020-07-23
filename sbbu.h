@@ -123,7 +123,7 @@ public:
     }
 };
 
-class sbp_t
+class sbbu_t
 {
 public:
     int m_nnodes;
@@ -144,7 +144,7 @@ public:
     double m_dtol;
     int m_j;
 
-    sbp_t(ddgp_t &dgp, double dtol, int imax) : m_dgp(dgp)
+    sbbu_t(ddgp_t &dgp, double dtol, int imax) : m_dgp(dgp)
     {
         m_nnodes = dgp.m_nnodes;
         m_dtol = dtol;
@@ -174,7 +174,7 @@ public:
             m_root[k] = -1;
     }
 
-    ~sbp_t()
+    ~sbbu_t()
     {
         free(m_edges);
         free(m_root);
@@ -350,9 +350,9 @@ public:
         char fsol[FILENAME_MAX];
         strcpy(fsol, fname.c_str());
         char *p = strstr(fsol, ".nmr"); // returns a pointer to the first occurrence of ".nmr"
-        sprintf(p, "_sbp.sol");         // replace suffix
+        sprintf(p, "_sbbu.sol");         // replace suffix
 
-        printf("SBP: saving solution on %s\n", fsol);
+        printf("SBBU: saving solution on %s\n", fsol);
         FILE *fid = fopen(fsol, "w");
         if (fid == NULL)
             throw std::runtime_error("The solution file could not be created.");
@@ -454,20 +454,20 @@ public:
 
     void solve(double tmax)
     {
-        printf("SBP: tmax = %g\n", tmax);
-        printf("SBP: dtol = %g\n", m_dtol);
-        printf("SBP: imax = %g\n", (double)m_imax);
-        printf("SBP: prune_edges = %d\n", m_nedges);
+        printf("SBBU: tmax = %g\n", tmax);
+        printf("SBBU: dtol = %g\n", m_dtol);
+        printf("SBBU: imax = %g\n", (double)m_imax);
+        printf("SBBU: prune_edges = %d\n", m_nedges);
 
         double tic = omp_get_wtime();
         for (int k = 0; k < m_nedges; ++k)
         {
             solve(m_edges[k]);
             if (omp_get_wtime() - tic > tmax)
-                throw std::runtime_error("SBP: time exceeded (tmax = " + std::to_string(tmax) + ").");
+                throw std::runtime_error("SBBU: time exceeded (tmax = " + std::to_string(tmax) + ").");
         }
         double toc = omp_get_wtime() - tic;
-        printf("SBP: solution found after %g secs\n", toc);
+        printf("SBBU: solution found after %g secs\n", toc);
 
         init_x(m_nnodes - 1);
         m_dgp.assert_feasibility(m_x);
