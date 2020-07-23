@@ -24,7 +24,7 @@ make test_all
 ~~~
 
 # Reference results
-The folder "REFERENCE RESULTS" contains the results obtained on Intel Core i7-8750H (Linux Ubuntu WSL).
+The folder "RESULTS" contains the results obtained on Intel Core i7-8750H (Linux Ubuntu WSL).
 
 TABLE DATA_EPSD_00_DMAX_50.csv ==============================
 |     pid        |     nnodes       |     nedges       |     tsec            |     mde               |     lde               |

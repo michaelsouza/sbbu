@@ -1,0 +1,198 @@
+./sbbu.exe -nmr DATA_EPSD_00_DMAX_50/1n6t.nmr -tmax 10.000000Reading file DATA_EPSD_00_DMAX_50/1n6t.nmr
+   NMR: nnodes = 30
+   NMR: nedges = 352
+SBP: tmax = 10
+SBP: dtol = 0.001
+SBP: imax = 1e+09
+SBP: prune_edges = 92
+SBP: solution found after 0.0001317 secs
+BP: MDE = 5.64447e-12, LDE = 3.52769e-10
+SBP: saving solution on DATA_EPSD_00_DMAX_50/1n6t_sbp.sol
+
+./sbbu.exe -nmr DATA_EPSD_00_DMAX_50/1fw5.nmr -tmax 10.000000Reading file DATA_EPSD_00_DMAX_50/1fw5.nmr
+   NMR: nnodes = 60
+   NMR: nedges = 834
+SBP: tmax = 10
+SBP: dtol = 0.001
+SBP: imax = 1e+09
+SBP: prune_edges = 243
+SBP: solution found after 0.0003466 secs
+BP: MDE = 2.47589e-12, LDE = 1.05505e-10
+SBP: saving solution on DATA_EPSD_00_DMAX_50/1fw5_sbp.sol
+
+./sbbu.exe -nmr DATA_EPSD_00_DMAX_50/1adx.nmr -tmax 10.000000Reading file DATA_EPSD_00_DMAX_50/1adx.nmr
+   NMR: nnodes = 120
+   NMR: nedges = 1318
+SBP: tmax = 10
+SBP: dtol = 0.001
+SBP: imax = 1e+09
+SBP: prune_edges = 305
+SBP: solution found after 0.0004755 secs
+BP: MDE = 2.92542e-12, LDE = 5.90388e-10
+SBP: saving solution on DATA_EPSD_00_DMAX_50/1adx_sbp.sol
+
+./sbbu.exe -nmr DATA_EPSD_00_DMAX_50/1bdo.nmr -tmax 10.000000Reading file DATA_EPSD_00_DMAX_50/1bdo.nmr
+   NMR: nnodes = 241
+   NMR: nedges = 2690
+SBP: tmax = 10
+SBP: dtol = 0.001
+SBP: imax = 1e+09
+SBP: prune_edges = 628
+SBP: solution found after 0.0009592 secs
+BP: MDE = 8.48612e-12, LDE = 6.95429e-10
+SBP: saving solution on DATA_EPSD_00_DMAX_50/1bdo_sbp.sol
+
+./sbbu.exe -nmr DATA_EPSD_00_DMAX_50/1all.nmr -tmax 10.000000Reading file DATA_EPSD_00_DMAX_50/1all.nmr
+   NMR: nnodes = 480
+   NMR: nedges = 6886
+SBP: tmax = 10
+SBP: dtol = 0.001
+SBP: imax = 1e+09
+SBP: prune_edges = 2009
+SBP: solution found after 0.0029368 secs
+BP: MDE = 1.23433e-12, LDE = 2.98227e-09
+SBP: saving solution on DATA_EPSD_00_DMAX_50/1all_sbp.sol
+
+./sbbu.exe -nmr DATA_EPSD_00_DMAX_50/6s61.nmr -tmax 10.000000Reading file DATA_EPSD_00_DMAX_50/6s61.nmr
+   NMR: nnodes = 522
+   NMR: nedges = 7398
+SBP: tmax = 10
+SBP: dtol = 0.001
+SBP: imax = 1e+09
+SBP: prune_edges = 2139
+SBP: solution found after 0.0028496 secs
+BP: MDE = 2.96239e-12, LDE = 1.33815e-09
+SBP: saving solution on DATA_EPSD_00_DMAX_50/6s61_sbp.sol
+
+./sbbu.exe -nmr DATA_EPSD_00_DMAX_50/1fhl.nmr -tmax 10.000000Reading file DATA_EPSD_00_DMAX_50/1fhl.nmr
+   NMR: nnodes = 1002
+   NMR: nedges = 12756
+SBP: tmax = 10
+SBP: dtol = 0.001
+SBP: imax = 1e+09
+SBP: prune_edges = 3378
+SBP: solution found after 0.0045332 secs
+BP: MDE = 1.02105e-11, LDE = 3.98329e-09
+SBP: saving solution on DATA_EPSD_00_DMAX_50/1fhl_sbp.sol
+
+./sbbu.exe -nmr DATA_EPSD_00_DMAX_50/4wua.nmr -tmax 10.000000Reading file DATA_EPSD_00_DMAX_50/4wua.nmr
+   NMR: nnodes = 1033
+   NMR: nedges = 13012
+SBP: tmax = 10
+SBP: dtol = 0.001
+SBP: imax = 1e+09
+SBP: prune_edges = 3413
+SBP: solution found after 0.0046821 secs
+BP: MDE = 2.91208e-12, LDE = 1.03046e-09
+SBP: saving solution on DATA_EPSD_00_DMAX_50/4wua_sbp.sol
+
+./sbbu.exe -nmr DATA_EPSD_00_DMAX_50/6czf.nmr -tmax 10.000000Reading file DATA_EPSD_00_DMAX_50/6czf.nmr
+   NMR: nnodes = 1494
+   NMR: nedges = 18446
+SBP: tmax = 10
+SBP: dtol = 0.001
+SBP: imax = 1e+09
+SBP: prune_edges = 4747
+SBP: solution found after 0.0063726 secs
+BP: MDE = 2.35117e-12, LDE = 1.18549e-09
+SBP: saving solution on DATA_EPSD_00_DMAX_50/6czf_sbp.sol
+
+./sbbu.exe -nmr DATA_EPSD_00_DMAX_50/5ijn.nmr -tmax 10.000000Reading file DATA_EPSD_00_DMAX_50/5ijn.nmr
+   NMR: nnodes = 1950
+   NMR: nedges = 23962
+SBP: tmax = 10
+SBP: dtol = 0.001
+SBP: imax = 1e+09
+SBP: prune_edges = 6137
+SBP: solution found after 0.0082982 secs
+BP: MDE = 7.24299e-12, LDE = 4.47862e-09
+SBP: saving solution on DATA_EPSD_00_DMAX_50/5ijn_sbp.sol
+
+./sbbu.exe -nmr DATA_EPSD_00_DMAX_50/6rn2.nmr -tmax 10.000000Reading file DATA_EPSD_00_DMAX_50/6rn2.nmr
+   NMR: nnodes = 2052
+   NMR: nedges = 27420
+SBP: tmax = 10
+SBP: dtol = 0.001
+SBP: imax = 1e+09
+SBP: prune_edges = 7560
+SBP: solution found after 0.0101447 secs
+BP: MDE = 6.21599e-12, LDE = 2.63864e-09
+SBP: saving solution on DATA_EPSD_00_DMAX_50/6rn2_sbp.sol
+
+./sbbu.exe -nmr DATA_EPSD_00_DMAX_50/1cza.nmr -tmax 10.000000Reading file DATA_EPSD_00_DMAX_50/1cza.nmr
+   NMR: nnodes = 2694
+   NMR: nedges = 34902
+SBP: tmax = 10
+SBP: dtol = 0.001
+SBP: imax = 1e+09
+SBP: prune_edges = 9375
+SBP: solution found after 0.0125545 secs
+BP: MDE = 3.21992e-11, LDE = 1.96634e-08
+SBP: saving solution on DATA_EPSD_00_DMAX_50/1cza_sbp.sol
+
+./sbbu.exe -nmr DATA_EPSD_00_DMAX_50/6bco.nmr -tmax 10.000000Reading file DATA_EPSD_00_DMAX_50/6bco.nmr
+   NMR: nnodes = 2856
+   NMR: nedges = 37208
+SBP: tmax = 10
+SBP: dtol = 0.001
+SBP: imax = 1e+09
+SBP: prune_edges = 10042
+SBP: solution found after 0.0134751 secs
+BP: MDE = 8.94579e-12, LDE = 2.50133e-08
+SBP: saving solution on DATA_EPSD_00_DMAX_50/6bco_sbp.sol
+
+./sbbu.exe -nmr DATA_EPSD_00_DMAX_50/1epw.nmr -tmax 10.000000Reading file DATA_EPSD_00_DMAX_50/1epw.nmr
+   NMR: nnodes = 3861
+   NMR: nedges = 46382
+SBP: tmax = 10
+SBP: dtol = 0.001
+SBP: imax = 1e+09
+SBP: prune_edges = 11614
+SBP: solution found after 0.0156956 secs
+BP: MDE = 9.52218e-11, LDE = 4.81396e-08
+SBP: saving solution on DATA_EPSD_00_DMAX_50/1epw_sbp.sol
+
+./sbbu.exe -nmr DATA_EPSD_00_DMAX_50/5nug.nmr -tmax 10.000000Reading file DATA_EPSD_00_DMAX_50/5nug.nmr
+   NMR: nnodes = 8760
+   NMR: nedges = 113958
+SBP: tmax = 10
+SBP: dtol = 0.001
+SBP: imax = 1e+09
+SBP: prune_edges = 30705
+SBP: solution found after 0.039969 secs
+BP: MDE = 1.7784e-10, LDE = 1.7976e-06
+SBP: saving solution on DATA_EPSD_00_DMAX_50/5nug_sbp.sol
+
+./sbbu.exe -nmr DATA_EPSD_00_DMAX_50/4rh7.nmr -tmax 10.000000Reading file DATA_EPSD_00_DMAX_50/4rh7.nmr
+   NMR: nnodes = 9015
+   NMR: nedges = 118692
+SBP: tmax = 10
+SBP: dtol = 0.001
+SBP: imax = 1e+09
+SBP: prune_edges = 32307
+SBP: solution found after 0.0415724 secs
+BP: MDE = 8.69409e-11, LDE = 6.17915e-07
+SBP: saving solution on DATA_EPSD_00_DMAX_50/4rh7_sbp.sol
+
+./sbbu.exe -nmr DATA_EPSD_00_DMAX_50/5np0.nmr -tmax 10.000000Reading file DATA_EPSD_00_DMAX_50/5np0.nmr
+   NMR: nnodes = 7584
+   NMR: nedges = 118956
+SBP: tmax = 10
+SBP: dtol = 0.001
+SBP: imax = 1e+09
+SBP: prune_edges = 36732
+SBP: solution found after 0.0486585 secs
+BP: MDE = 4.37042e-11, LDE = 2.25869e-07
+SBP: saving solution on DATA_EPSD_00_DMAX_50/5np0_sbp.sol
+
+./sbbu.exe -nmr DATA_EPSD_00_DMAX_50/3vkh.nmr -tmax 10.000000Reading file DATA_EPSD_00_DMAX_50/3vkh.nmr
+   NMR: nnodes = 9126
+   NMR: nedges = 119184
+SBP: tmax = 10
+SBP: dtol = 0.001
+SBP: imax = 1e+09
+SBP: prune_edges = 32220
+SBP: solution found after 0.06908 secs
+BP: MDE = 1.71725e-09, LDE = 1.22824e-05
+SBP: saving solution on DATA_EPSD_00_DMAX_50/3vkh_sbp.sol
+
