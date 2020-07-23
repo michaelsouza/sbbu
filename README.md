@@ -9,7 +9,7 @@ make sbbu.exe
 ~~~
 
 # Execution
-In order to execute is necessary to specify the nmr and the max execution time.
+In order to execute is necessary to specify the NRM file (-nmr) and the max execution time (-tmax).
 
 Example:
 ~~~
