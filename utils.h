@@ -3,7 +3,6 @@
 #include <vector>
 #include <string>
 #include <stdexcept>
-#include <execinfo.h>
 #include <omp.h>
 
 #define FMT_RESET   "\033[0m"
@@ -27,41 +26,6 @@
 #define MAX(a, b) ((a) > (b) ? (a) : (b))
 #define MIN(a, b) ((a) < (b) ? (a) : (b))
 #define SQR(a) ((a) * (a))
-#define THROW_EXCEPTION(msg) throw_exception_backtrace((msg), __FILE__, __LINE__)
-
-void throw_exception_backtrace(std::string msg, std::string const file, int line)
-{
-#pragma omp critical(throw_exception)
-   {
-      char MSG[256];
-      sprintf(MSG, FMT_BOLD_RED "[%s:%d, thread = %d] %s" FMT_RESET, file.c_str(), line, omp_get_thread_num(), msg.c_str());
-
-      const int buffer_size = 1024;
-      int nptrs;
-      void *buffer[buffer_size];
-      char **strings;
-
-      nptrs = backtrace(buffer, buffer_size);
-      printf("backtrace() returned %d addresses\n", nptrs);
-
-      /* The call backtrace_symbols_fd(buffer, nptrs, STDOUT_FILENO)
-              would produce similar output to the following: */
-
-      strings = backtrace_symbols(buffer, nptrs);
-      if (strings == NULL)
-      {
-         perror("backtrace_symbols");
-         exit(EXIT_FAILURE);
-      }
-
-      for (int j = 0; j < nptrs; j++)
-         printf("[bt] (%d) %s\n", j, strings[j]);
-
-      free(strings);
-
-      throw std::runtime_error(MSG);
-   }
-}
 
 class options_t
 {

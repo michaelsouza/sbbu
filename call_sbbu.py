@@ -5,6 +5,8 @@ import pandas as pd
 tmax = 10
 WDIR = ['DATA_EPSD_00_DMAX_50', 'DATA_EPSD_00_DMAX_60']
 
+solver = 'sbbu.exe' if os.name == 'nt' else './sbbu.exe'
+
 for wdir in WDIR:
     FILES = []
     for fname in os.listdir(wdir):
@@ -33,7 +35,7 @@ for wdir in WDIR:
     for k in range(len(FILES)):
         f = FILES[k]
         print('[%2d/%2d] %d : %s' % (k+1, len(FILES), f['size'], f['name']))
-        cmd = './sbbu.exe -nmr %s -tmax %f' % (f['name'], tmax)
+        cmd = '%s -nmr %s -tmax %f' % (solver, f['name'], tmax)
         output += run_cmd(cmd)
 
     # create log file
