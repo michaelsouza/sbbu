@@ -7,6 +7,22 @@ WDIR = ['DATA_EPSD_00_DMAX_50', 'DATA_EPSD_00_DMAX_60']
 
 solver = 'sbbu.exe' if os.name == 'nt' else './sbbu.exe'
 
+def run_cmd(cmd):
+    output = [cmd + '\n']
+    print(cmd)
+    try:
+        if os.name == 'nt':  # windows
+            cmd_out = subprocess.check_output(cmd, shell=True).decode('windows-1252')
+        else:  # unix
+            cmd_out = subprocess.check_output(cmd, shell=True).decode('utf-8')
+        cmd_out = cmd_out.split('\n')
+        for line in cmd_out:
+            print(line)
+            output.append(line + '\n')
+    except subprocess.CalledProcessError as e:
+        print(e)
+    return output
+
 for wdir in WDIR:
     FILES = []
     for fname in os.listdir(wdir):
@@ -14,22 +30,6 @@ for wdir in WDIR:
         if fname.endswith('.nmr'):
             FILES.append({'name': fname, 'size': os.path.getsize(fname)})
     FILES = sorted(FILES, key=lambda x: x['size'])
-
-    def run_cmd(cmd):
-        output = [cmd]
-        print(cmd)
-        try:
-            if os.name == 'nt':  # windows
-                cmd_out = subprocess.check_output(cmd, shell=True).decode('windows-1252')
-            else:  # unix
-                cmd_out = subprocess.check_output(cmd, shell=True).decode('utf-8')
-            cmd_out = cmd_out.split('\n')
-            for line in cmd_out:
-                print(line)
-                output.append(line + '\n')
-        except subprocess.CalledProcessError as e:
-            print(e)
-        return output
 
     output = []
     for k in range(len(FILES)):
