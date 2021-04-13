@@ -1,0 +1,861 @@
+Reading file nmr/DATA_EPSD_00_DMAX_60/5nug.nmr
+   NMR: nnodes = 8760
+   NMR: nedges = 165434
+SBP: tmax = 3600
+SBP: dtol = 0.001
+SBP: imax = 1e+09
+SBP: prune_edges = 56443
+SBP: solution found after 0.00338877 secs
+SBP: MDE = 5.32606e-10, LDE = 2.39913e-06
+SBP: saving solution on nmr/DATA_EPSD_00_DMAX_60/5nug_sbp.sol
+Reading file nmr/DATA_EPSD_00_DMAX_60/5ijn.nmr
+   NMR: nnodes = 1950
+   NMR: nedges = 36532
+SBP: tmax = 3600
+SBP: dtol = 0.001
+SBP: imax = 1e+09
+SBP: prune_edges = 12422
+SBP: solution found after 0.00110108 secs
+SBP: MDE = 1.76025e-11, LDE = 1.81101e-08
+SBP: saving solution on nmr/DATA_EPSD_00_DMAX_60/5ijn_sbp.sol
+Reading file nmr/DATA_EPSD_00_DMAX_60/1fhl.nmr
+   NMR: nnodes = 1002
+   NMR: nedges = 19622
+SBP: tmax = 3600
+SBP: dtol = 0.001
+SBP: imax = 1e+09
+SBP: prune_edges = 6811
+SBP: solution found after 0.000405288 secs
+SBP: MDE = 1.92784e-11, LDE = 4.27612e-09
+SBP: saving solution on nmr/DATA_EPSD_00_DMAX_60/1fhl_sbp.sol
+Reading file nmr/DATA_EPSD_00_DMAX_60/3vkh.nmr
+   NMR: nnodes = 9126
+   NMR: nedges = 175242
+SBP: tmax = 3600
+SBP: dtol = 0.001
+SBP: imax = 1e+09
+SBP: prune_edges = 60249
+SBP: solution found after 0.00370114 secs
+SBP: MDE = 1.14628e-09, LDE = 4.27913e-06
+SBP: saving solution on nmr/DATA_EPSD_00_DMAX_60/3vkh_sbp.sol
+Reading file nmr/DATA_EPSD_00_DMAX_60/6rn2.nmr
+   NMR: nnodes = 2052
+   NMR: nedges = 39838
+SBP: tmax = 3600
+SBP: dtol = 0.001
+SBP: imax = 1e+09
+SBP: prune_edges = 13769
+SBP: solution found after 0.00082527 secs
+SBP: MDE = 1.5373e-11, LDE = 5.80539e-09
+SBP: saving solution on nmr/DATA_EPSD_00_DMAX_60/6rn2_sbp.sol
+Reading file nmr/DATA_EPSD_00_DMAX_60/6czf.nmr
+   NMR: nnodes = 1494
+   NMR: nedges = 28326
+SBP: tmax = 3600
+SBP: dtol = 0.001
+SBP: imax = 1e+09
+SBP: prune_edges = 9687
+SBP: solution found after 0.000581838 secs
+SBP: MDE = 4.18368e-12, LDE = 1.70586e-09
+SBP: saving solution on nmr/DATA_EPSD_00_DMAX_60/6czf_sbp.sol
+Reading file nmr/DATA_EPSD_00_DMAX_60/4wua.nmr
+   NMR: nnodes = 1033
+   NMR: nedges = 19454
+SBP: tmax = 3600
+SBP: dtol = 0.001
+SBP: imax = 1e+09
+SBP: prune_edges = 6634
+SBP: solution found after 0.000422706 secs
+SBP: MDE = 7.73294e-12, LDE = 3.07537e-09
+SBP: saving solution on nmr/DATA_EPSD_00_DMAX_60/4wua_sbp.sol
+Reading file nmr/DATA_EPSD_00_DMAX_60/1adx.nmr
+   NMR: nnodes = 120
+   NMR: nedges = 2016
+SBP: tmax = 3600
+SBP: dtol = 0.001
+SBP: imax = 1e+09
+SBP: prune_edges = 654
+SBP: solution found after 4.2451e-05 secs
+SBP: MDE = 3.77532e-12, LDE = 2.82322e-10
+SBP: saving solution on nmr/DATA_EPSD_00_DMAX_60/1adx_sbp.sol
+Reading file nmr/DATA_EPSD_00_DMAX_60/6s61.nmr
+   NMR: nnodes = 522
+   NMR: nedges = 10596
+SBP: tmax = 3600
+SBP: dtol = 0.001
+SBP: imax = 1e+09
+SBP: prune_edges = 3738
+SBP: solution found after 0.000209298 secs
+SBP: MDE = 3.09053e-12, LDE = 3.28071e-09
+SBP: saving solution on nmr/DATA_EPSD_00_DMAX_60/6s61_sbp.sol
+Reading file nmr/DATA_EPSD_00_DMAX_60/4rh7.nmr
+   NMR: nnodes = 9015
+   NMR: nedges = 171662
+SBP: tmax = 3600
+SBP: dtol = 0.001
+SBP: imax = 1e+09
+SBP: prune_edges = 58792
+SBP: solution found after 0.00375371 secs
+SBP: MDE = 2.21685e-10, LDE = 7.50587e-07
+SBP: saving solution on nmr/DATA_EPSD_00_DMAX_60/4rh7_sbp.sol
+Reading file nmr/DATA_EPSD_00_DMAX_60/5np0.nmr
+   NMR: nnodes = 7584
+   NMR: nedges = 160674
+SBP: tmax = 3600
+SBP: dtol = 0.001
+SBP: imax = 1e+09
+SBP: prune_edges = 57591
+SBP: solution found after 0.00342337 secs
+SBP: MDE = 1.35264e-10, LDE = 3.1937e-07
+SBP: saving solution on nmr/DATA_EPSD_00_DMAX_60/5np0_sbp.sol
+Reading file nmr/DATA_EPSD_00_DMAX_60/1all.nmr
+   NMR: nnodes = 480
+   NMR: nedges = 9864
+SBP: tmax = 3600
+SBP: dtol = 0.001
+SBP: imax = 1e+09
+SBP: prune_edges = 3498
+SBP: solution found after 0.000192275 secs
+SBP: MDE = 3.80489e-12, LDE = 2.22321e-09
+SBP: saving solution on nmr/DATA_EPSD_00_DMAX_60/1all_sbp.sol
+Reading file nmr/DATA_EPSD_00_DMAX_60/1cza.nmr
+   NMR: nnodes = 2694
+   NMR: nedges = 52904
+SBP: tmax = 3600
+SBP: dtol = 0.001
+SBP: imax = 1e+09
+SBP: prune_edges = 18376
+SBP: solution found after 0.00105979 secs
+SBP: MDE = 6.22408e-11, LDE = 4.31682e-08
+SBP: saving solution on nmr/DATA_EPSD_00_DMAX_60/1cza_sbp.sol
+Reading file nmr/DATA_EPSD_00_DMAX_60/1n6t.nmr
+   NMR: nnodes = 30
+   NMR: nedges = 472
+SBP: tmax = 3600
+SBP: dtol = 0.001
+SBP: imax = 1e+09
+SBP: prune_edges = 152
+SBP: solution found after 1.1768e-05 secs
+SBP: MDE = 2.71574e-12, LDE = 9.09788e-11
+SBP: saving solution on nmr/DATA_EPSD_00_DMAX_60/1n6t_sbp.sol
+Reading file nmr/DATA_EPSD_00_DMAX_60/1epw.nmr
+   NMR: nnodes = 3861
+   NMR: nedges = 70056
+SBP: tmax = 3600
+SBP: dtol = 0.001
+SBP: imax = 1e+09
+SBP: prune_edges = 23451
+SBP: solution found after 0.00156591 secs
+SBP: MDE = 2.49805e-10, LDE = 8.16147e-08
+SBP: saving solution on nmr/DATA_EPSD_00_DMAX_60/1epw_sbp.sol
+Reading file nmr/DATA_EPSD_00_DMAX_60/1bdo.nmr
+   NMR: nnodes = 241
+   NMR: nedges = 4334
+SBP: tmax = 3600
+SBP: dtol = 0.001
+SBP: imax = 1e+09
+SBP: prune_edges = 1450
+SBP: solution found after 8.8371e-05 secs
+SBP: MDE = 1.39322e-11, LDE = 6.45125e-10
+SBP: saving solution on nmr/DATA_EPSD_00_DMAX_60/1bdo_sbp.sol
+Reading file nmr/DATA_EPSD_00_DMAX_60/1fw5.nmr
+   NMR: nnodes = 60
+   NMR: nedges = 1116
+SBP: tmax = 3600
+SBP: dtol = 0.001
+SBP: imax = 1e+09
+SBP: prune_edges = 384
+SBP: solution found after 2.3906e-05 secs
+SBP: MDE = 4.21649e-12, LDE = 1.93939e-10
+SBP: saving solution on nmr/DATA_EPSD_00_DMAX_60/1fw5_sbp.sol
+Reading file nmr/DATA_EPSD_00_DMAX_60/6bco.nmr
+   NMR: nnodes = 2856
+   NMR: nedges = 54180
+SBP: tmax = 3600
+SBP: dtol = 0.001
+SBP: imax = 1e+09
+SBP: prune_edges = 18528
+SBP: solution found after 0.00116374 secs
+SBP: MDE = 7.90598e-12, LDE = 1.29076e-08
+SBP: saving solution on nmr/DATA_EPSD_00_DMAX_60/6bco_sbp.sol
+MD-jeep v0.2
+GNU General Public License
+Copyright (C) Mucherino, Liberti, Goncalves, Lavor, Maculan
+mdjeep: tolerance eps ........ 0.001
+mdjeep: tolerance epsomega ... 0
+mdjeep: max time ............. 3600.00 secs
+mdjeep: only one solution is required by the user
+mdjeep: method used for coordinate computation: cumulative matrix based
+mdjeep: file 'nmr/DATA_EPSD_00_DMAX_60/5nug.nmr' read: 8760 atoms / 82717 distances
+mdjeep: the input instance is discretizable; the consecutivity assumption is satisfied
+mdjeep: exploring the binary tree ... done!
+mdjeep: 1 solutions found 
+mdjeep: 10630 branches were pruned
+mdjeep: CPU time (in seconds) = 1.47815
+mdjeep: best MDE function (solution #1): 1.51976e-07
+MD-jeep v0.2
+GNU General Public License
+Copyright (C) Mucherino, Liberti, Goncalves, Lavor, Maculan
+mdjeep: tolerance eps ........ 0.001
+mdjeep: tolerance epsomega ... 0
+mdjeep: max time ............. 3600.00 secs
+mdjeep: only one solution is required by the user
+mdjeep: method used for coordinate computation: cumulative matrix based
+mdjeep: file 'nmr/DATA_EPSD_00_DMAX_60/5ijn.nmr' read: 1950 atoms / 18266 distances
+mdjeep: the input instance is discretizable; the consecutivity assumption is satisfied
+mdjeep: exploring the binary tree ... done!
+mdjeep: 1 solutions found 
+mdjeep: 633 branches were pruned
+mdjeep: CPU time (in seconds) = 0.0181447
+mdjeep: best MDE function (solution #1): 1.45799e-13
+MD-jeep v0.2
+GNU General Public License
+Copyright (C) Mucherino, Liberti, Goncalves, Lavor, Maculan
+mdjeep: tolerance eps ........ 0.001
+mdjeep: tolerance epsomega ... 0
+mdjeep: max time ............. 3600.00 secs
+mdjeep: only one solution is required by the user
+mdjeep: method used for coordinate computation: cumulative matrix based
+mdjeep: file 'nmr/DATA_EPSD_00_DMAX_60/1fhl.nmr' read: 1002 atoms / 9811 distances
+mdjeep: the input instance is discretizable; the consecutivity assumption is satisfied
+mdjeep: exploring the binary tree ... done!
+mdjeep: 1 solutions found 
+mdjeep: 873 branches were pruned
+mdjeep: CPU time (in seconds) = 0.00482971
+mdjeep: best MDE function (solution #1): 6.96096e-13
+MD-jeep v0.2
+GNU General Public License
+Copyright (C) Mucherino, Liberti, Goncalves, Lavor, Maculan
+mdjeep: tolerance eps ........ 0.001
+mdjeep: tolerance epsomega ... 0
+mdjeep: max time ............. 3600.00 secs
+mdjeep: only one solution is required by the user
+mdjeep: method used for coordinate computation: cumulative matrix based
+mdjeep: file 'nmr/DATA_EPSD_00_DMAX_60/3vkh.nmr' read: 9126 atoms / 87621 distances
+mdjeep: the input instance is discretizable; the consecutivity assumption is satisfied
+mdjeep: exploring the binary tree ... done!
+mdjeep: 1 solutions found 
+mdjeep: 1699105 branches were pruned
+mdjeep: CPU time (in seconds) = 312.124
+mdjeep: best MDE function (solution #1): 2.56875e-12
+MD-jeep v0.2
+GNU General Public License
+Copyright (C) Mucherino, Liberti, Goncalves, Lavor, Maculan
+mdjeep: tolerance eps ........ 0.001
+mdjeep: tolerance epsomega ... 0
+mdjeep: max time ............. 3600.00 secs
+mdjeep: only one solution is required by the user
+mdjeep: method used for coordinate computation: cumulative matrix based
+mdjeep: file 'nmr/DATA_EPSD_00_DMAX_60/6rn2.nmr' read: 2052 atoms / 19919 distances
+mdjeep: the input instance is discretizable; the consecutivity assumption is satisfied
+mdjeep: exploring the binary tree ... done!
+mdjeep: 1 solutions found 
+mdjeep: 1483 branches were pruned
+mdjeep: CPU time (in seconds) = 0.0259614
+mdjeep: best MDE function (solution #1): 1.16814e-13
+MD-jeep v0.2
+GNU General Public License
+Copyright (C) Mucherino, Liberti, Goncalves, Lavor, Maculan
+mdjeep: tolerance eps ........ 0.001
+mdjeep: tolerance epsomega ... 0
+mdjeep: max time ............. 3600.00 secs
+mdjeep: only one solution is required by the user
+mdjeep: method used for coordinate computation: cumulative matrix based
+mdjeep: file 'nmr/DATA_EPSD_00_DMAX_60/6czf.nmr' read: 1494 atoms / 14163 distances
+mdjeep: the input instance is discretizable; the consecutivity assumption is satisfied
+mdjeep: exploring the binary tree ... done!
+mdjeep: 1 solutions found 
+mdjeep: 919 branches were pruned
+mdjeep: CPU time (in seconds) = 0.012979
+mdjeep: best MDE function (solution #1): 1.41289e-13
+MD-jeep v0.2
+GNU General Public License
+Copyright (C) Mucherino, Liberti, Goncalves, Lavor, Maculan
+mdjeep: tolerance eps ........ 0.001
+mdjeep: tolerance epsomega ... 0
+mdjeep: max time ............. 3600.00 secs
+mdjeep: only one solution is required by the user
+mdjeep: method used for coordinate computation: cumulative matrix based
+mdjeep: file 'nmr/DATA_EPSD_00_DMAX_60/4wua.nmr' read: 1033 atoms / 9727 distances
+mdjeep: the input instance is discretizable; the consecutivity assumption is satisfied
+mdjeep: exploring the binary tree ... done!
+mdjeep: 1 solutions found 
+mdjeep: 389 branches were pruned
+mdjeep: CPU time (in seconds) = 0.00447164
+mdjeep: best MDE function (solution #1): 1.56425e-12
+MD-jeep v0.2
+GNU General Public License
+Copyright (C) Mucherino, Liberti, Goncalves, Lavor, Maculan
+mdjeep: tolerance eps ........ 0.001
+mdjeep: tolerance epsomega ... 0
+mdjeep: max time ............. 3600.00 secs
+mdjeep: only one solution is required by the user
+mdjeep: method used for coordinate computation: cumulative matrix based
+mdjeep: file 'nmr/DATA_EPSD_00_DMAX_60/1adx.nmr' read: 120 atoms / 1008 distances
+mdjeep: the input instance is discretizable; the consecutivity assumption is satisfied
+mdjeep: exploring the binary tree ... done!
+mdjeep: 1 solutions found 
+mdjeep: 62 branches were pruned
+mdjeep: CPU time (in seconds) = 9.7108e-05
+mdjeep: best MDE function (solution #1): 6.71724e-13
+MD-jeep v0.2
+GNU General Public License
+Copyright (C) Mucherino, Liberti, Goncalves, Lavor, Maculan
+mdjeep: tolerance eps ........ 0.001
+mdjeep: tolerance epsomega ... 0
+mdjeep: max time ............. 3600.00 secs
+mdjeep: only one solution is required by the user
+mdjeep: method used for coordinate computation: cumulative matrix based
+mdjeep: file 'nmr/DATA_EPSD_00_DMAX_60/6s61.nmr' read: 522 atoms / 5298 distances
+mdjeep: the input instance is discretizable; the consecutivity assumption is satisfied
+mdjeep: exploring the binary tree ... done!
+mdjeep: 1 solutions found 
+mdjeep: 387 branches were pruned
+mdjeep: CPU time (in seconds) = 0.000602791
+mdjeep: best MDE function (solution #1): 6.45172e-14
+MD-jeep v0.2
+GNU General Public License
+Copyright (C) Mucherino, Liberti, Goncalves, Lavor, Maculan
+mdjeep: tolerance eps ........ 0.001
+mdjeep: tolerance epsomega ... 0
+mdjeep: max time ............. 3600.00 secs
+mdjeep: only one solution is required by the user
+mdjeep: method used for coordinate computation: cumulative matrix based
+mdjeep: file 'nmr/DATA_EPSD_00_DMAX_60/4rh7.nmr' read: 9015 atoms / 85831 distances
+mdjeep: the input instance is discretizable; the consecutivity assumption is satisfied
+mdjeep: exploring the binary tree ... done!
+mdjeep: 1 solutions found 
+mdjeep: 9532 branches were pruned
+mdjeep: CPU time (in seconds) = 1.21546
+mdjeep: best MDE function (solution #1): 1.81544e-13
+MD-jeep v0.2
+GNU General Public License
+Copyright (C) Mucherino, Liberti, Goncalves, Lavor, Maculan
+mdjeep: tolerance eps ........ 0.001
+mdjeep: tolerance epsomega ... 0
+mdjeep: max time ............. 3600.00 secs
+mdjeep: only one solution is required by the user
+mdjeep: method used for coordinate computation: cumulative matrix based
+mdjeep: file 'nmr/DATA_EPSD_00_DMAX_60/5np0.nmr' read: 7584 atoms / 80337 distances
+mdjeep: the input instance is discretizable; the consecutivity assumption is satisfied
+mdjeep: exploring the binary tree ... done!
+mdjeep: 1 solutions found 
+mdjeep: 32381 branches were pruned
+mdjeep: CPU time (in seconds) = 4.1477
+mdjeep: best MDE function (solution #1): 6.22838e-13
+MD-jeep v0.2
+GNU General Public License
+Copyright (C) Mucherino, Liberti, Goncalves, Lavor, Maculan
+mdjeep: tolerance eps ........ 0.001
+mdjeep: tolerance epsomega ... 0
+mdjeep: max time ............. 3600.00 secs
+mdjeep: only one solution is required by the user
+mdjeep: method used for coordinate computation: cumulative matrix based
+mdjeep: file 'nmr/DATA_EPSD_00_DMAX_60/1all.nmr' read: 480 atoms / 4932 distances
+mdjeep: the input instance is discretizable; the consecutivity assumption is satisfied
+mdjeep: exploring the binary tree ... done!
+mdjeep: 1 solutions found 
+mdjeep: 182 branches were pruned
+mdjeep: CPU time (in seconds) = 0.000564302
+mdjeep: best MDE function (solution #1): 8.69333e-14
+MD-jeep v0.2
+GNU General Public License
+Copyright (C) Mucherino, Liberti, Goncalves, Lavor, Maculan
+mdjeep: tolerance eps ........ 0.001
+mdjeep: tolerance epsomega ... 0
+mdjeep: max time ............. 3600.00 secs
+mdjeep: only one solution is required by the user
+mdjeep: method used for coordinate computation: cumulative matrix based
+mdjeep: file 'nmr/DATA_EPSD_00_DMAX_60/1cza.nmr' read: 2694 atoms / 26452 distances
+mdjeep: the input instance is discretizable; the consecutivity assumption is satisfied
+mdjeep: exploring the binary tree ... done!
+mdjeep: 1 solutions found 
+mdjeep: 1155 branches were pruned
+mdjeep: CPU time (in seconds) = 0.0416464
+mdjeep: best MDE function (solution #1): 1.33015e-13
+MD-jeep v0.2
+GNU General Public License
+Copyright (C) Mucherino, Liberti, Goncalves, Lavor, Maculan
+mdjeep: tolerance eps ........ 0.001
+mdjeep: tolerance epsomega ... 0
+mdjeep: max time ............. 3600.00 secs
+mdjeep: only one solution is required by the user
+mdjeep: method used for coordinate computation: cumulative matrix based
+mdjeep: file 'nmr/DATA_EPSD_00_DMAX_60/1n6t.nmr' read: 30 atoms / 236 distances
+mdjeep: the input instance is discretizable; the consecutivity assumption is satisfied
+mdjeep: exploring the binary tree ... done!
+mdjeep: 1 solutions found 
+mdjeep: 23 branches were pruned
+mdjeep: CPU time (in seconds) = 2.5547e-05
+mdjeep: best MDE function (solution #1): 1.07182e-05
+MD-jeep v0.2
+GNU General Public License
+Copyright (C) Mucherino, Liberti, Goncalves, Lavor, Maculan
+mdjeep: tolerance eps ........ 0.001
+mdjeep: tolerance epsomega ... 0
+mdjeep: max time ............. 3600.00 secs
+mdjeep: only one solution is required by the user
+mdjeep: method used for coordinate computation: cumulative matrix based
+mdjeep: file 'nmr/DATA_EPSD_00_DMAX_60/1epw.nmr' read: 3861 atoms / 35028 distances
+mdjeep: the input instance is discretizable; the consecutivity assumption is satisfied
+mdjeep: exploring the binary tree ... done!
+mdjeep: 1 solutions found 
+mdjeep: 3268 branches were pruned
+mdjeep: CPU time (in seconds) = 0.123668
+mdjeep: best MDE function (solution #1): 2.07164e-12
+MD-jeep v0.2
+GNU General Public License
+Copyright (C) Mucherino, Liberti, Goncalves, Lavor, Maculan
+mdjeep: tolerance eps ........ 0.001
+mdjeep: tolerance epsomega ... 0
+mdjeep: max time ............. 3600.00 secs
+mdjeep: only one solution is required by the user
+mdjeep: method used for coordinate computation: cumulative matrix based
+mdjeep: file 'nmr/DATA_EPSD_00_DMAX_60/1bdo.nmr' read: 241 atoms / 2167 distances
+mdjeep: the input instance is discretizable; the consecutivity assumption is satisfied
+mdjeep: exploring the binary tree ... done!
+mdjeep: 1 solutions found 
+mdjeep: 117 branches were pruned
+mdjeep: CPU time (in seconds) = 0.000205316
+mdjeep: best MDE function (solution #1): 4.23603e-13
+MD-jeep v0.2
+GNU General Public License
+Copyright (C) Mucherino, Liberti, Goncalves, Lavor, Maculan
+mdjeep: tolerance eps ........ 0.001
+mdjeep: tolerance epsomega ... 0
+mdjeep: max time ............. 3600.00 secs
+mdjeep: only one solution is required by the user
+mdjeep: method used for coordinate computation: cumulative matrix based
+mdjeep: file 'nmr/DATA_EPSD_00_DMAX_60/1fw5.nmr' read: 60 atoms / 558 distances
+mdjeep: the input instance is discretizable; the consecutivity assumption is satisfied
+mdjeep: exploring the binary tree ... done!
+mdjeep: 1 solutions found 
+mdjeep: 59 branches were pruned
+mdjeep: CPU time (in seconds) = 5.2872e-05
+mdjeep: best MDE function (solution #1): 1.6284e-06
+MD-jeep v0.2
+GNU General Public License
+Copyright (C) Mucherino, Liberti, Goncalves, Lavor, Maculan
+mdjeep: tolerance eps ........ 0.001
+mdjeep: tolerance epsomega ... 0
+mdjeep: max time ............. 3600.00 secs
+mdjeep: only one solution is required by the user
+mdjeep: method used for coordinate computation: cumulative matrix based
+mdjeep: file 'nmr/DATA_EPSD_00_DMAX_60/6bco.nmr' read: 2856 atoms / 27090 distances
+mdjeep: the input instance is discretizable; the consecutivity assumption is satisfied
+mdjeep: exploring the binary tree ... done!
+mdjeep: 1 solutions found 
+mdjeep: 1853 branches were pruned
+mdjeep: CPU time (in seconds) = 0.0702946
+mdjeep: best MDE function (solution #1): 4.67868e-14
+MD-jeep 0.3.0
+mdjeep: only one solution is requested by the user
+mdjeep: tolerance epsilon = 0.001, resolution =  1.00
+mdjeep: tmax = 3600
+mdjeep: the previous file format of versions 0.1 and 0.2 is used for reading input file
+mdjeep: file 'nmr/DATA_EPSD_00_DMAX_60/5nug.nmr' read: 8760 vertices / 82717 distances
+mdjeep: the input instance is discretizable; the consecutivity assumption is satisfied
+mdjeep: the loaded instance contains only exact distances
+mdjeep: allocating memory... done
+mdjeep: checking symmetries... layers: 4 (time elapsed 3394.66 secs)
+mdjeep: exploring the search tree ... layer    
+mdjeep: 1 solutions found 
+mdjeep: 10630 branches were pruned
+mdjeep: best solution #1: LDE = 0.0008833621410753167, MDE = 1.434993248887082e-06
+mdjeep: CPU time =   24ms 687μs 
+mdjeep: CPU time = 0.025 secs (raw)
+MD-jeep 0.3.0
+mdjeep: only one solution is requested by the user
+mdjeep: tolerance epsilon = 0.001, resolution =  1.00
+mdjeep: tmax = 3600
+mdjeep: the previous file format of versions 0.1 and 0.2 is used for reading input file
+mdjeep: file 'nmr/DATA_EPSD_00_DMAX_60/5ijn.nmr' read: 1950 vertices / 18266 distances
+mdjeep: the input instance is discretizable; the consecutivity assumption is satisfied
+mdjeep: the loaded instance contains only exact distances
+mdjeep: allocating memory... done
+mdjeep: checking symmetries... layers: 4 (time elapsed 39.17 secs)
+mdjeep: exploring the search tree ... layer    
+mdjeep: 1 solutions found 
+mdjeep: 633 branches were pruned
+mdjeep: best solution #1: LDE = 6.258726870100872e-11, MDE = 1.372450056125208e-12
+mdjeep: CPU time =    3ms 569μs 
+mdjeep: CPU time = 0.0036 secs (raw)
+MD-jeep 0.3.0
+mdjeep: only one solution is requested by the user
+mdjeep: tolerance epsilon = 0.001, resolution =  1.00
+mdjeep: tmax = 3600
+mdjeep: the previous file format of versions 0.1 and 0.2 is used for reading input file
+mdjeep: file 'nmr/DATA_EPSD_00_DMAX_60/1fhl.nmr' read: 1002 vertices / 9811 distances
+mdjeep: the input instance is discretizable; the consecutivity assumption is satisfied
+mdjeep: the loaded instance contains only exact distances
+mdjeep: allocating memory... done
+mdjeep: checking symmetries... layers: 4 (time elapsed 5.27 secs)
+mdjeep: exploring the search tree ... layer    
+mdjeep: 1 solutions found 
+mdjeep: 873 branches were pruned
+mdjeep: best solution #1: LDE = 1.826707674013051e-10, MDE = 6.826230730658226e-12
+mdjeep: CPU time =    2ms 188μs 
+mdjeep: CPU time = 0.0022 secs (raw)
+MD-jeep 0.3.0
+mdjeep: only one solution is requested by the user
+mdjeep: tolerance epsilon = 0.001, resolution =  1.00
+mdjeep: tmax = 3600
+mdjeep: the previous file format of versions 0.1 and 0.2 is used for reading input file
+mdjeep: file 'nmr/DATA_EPSD_00_DMAX_60/3vkh.nmr' read: 9126 vertices / 87621 distances
+mdjeep: the input instance is discretizable; the consecutivity assumption is satisfied
+mdjeep: the loaded instance contains only exact distances
+mdjeep: allocating memory... done
+mdjeep: checking symmetries... layers: 4 (time elapsed 4363.59 secs)
+mdjeep: exploring the search tree ... layer    
+mdjeep: 1 solutions found 
+mdjeep: 2381616 branches were pruned
+mdjeep: best solution #1: LDE = 0.0009189005122944849, MDE = 2.945740016244845e-08
+mdjeep: CPU time =   2s 784ms 626μs 
+mdjeep: CPU time = 2.8 secs (raw)
+MD-jeep 0.3.0
+mdjeep: only one solution is requested by the user
+mdjeep: tolerance epsilon = 0.001, resolution =  1.00
+mdjeep: tmax = 3600
+mdjeep: the previous file format of versions 0.1 and 0.2 is used for reading input file
+mdjeep: file 'nmr/DATA_EPSD_00_DMAX_60/6rn2.nmr' read: 2052 vertices / 19919 distances
+mdjeep: the input instance is discretizable; the consecutivity assumption is satisfied
+mdjeep: the loaded instance contains only exact distances
+mdjeep: allocating memory... done
+mdjeep: checking symmetries... layers: 4 (time elapsed 42.32 secs)
+mdjeep: exploring the search tree ... layer    
+mdjeep: 1 solutions found 
+mdjeep: 1483 branches were pruned
+mdjeep: best solution #1: LDE = 4.215561233422704e-11, MDE = 1.114227270134603e-12
+mdjeep: CPU time =    3ms 812μs 
+mdjeep: CPU time = 0.0038 secs (raw)
+MD-jeep 0.3.0
+mdjeep: only one solution is requested by the user
+mdjeep: tolerance epsilon = 0.001, resolution =  1.00
+mdjeep: tmax = 3600
+mdjeep: the previous file format of versions 0.1 and 0.2 is used for reading input file
+mdjeep: file 'nmr/DATA_EPSD_00_DMAX_60/6czf.nmr' read: 1494 vertices / 14163 distances
+mdjeep: the input instance is discretizable; the consecutivity assumption is satisfied
+mdjeep: the loaded instance contains only exact distances
+mdjeep: allocating memory... done
+mdjeep: checking symmetries... layers: 4 (time elapsed 15.91 secs)
+mdjeep: exploring the search tree ... layer    
+mdjeep: 1 solutions found 
+mdjeep: 919 branches were pruned
+mdjeep: best solution #1: LDE = 5.647127210295366e-11, MDE = 1.337055030025362e-12
+mdjeep: CPU time =    2ms 793μs 
+mdjeep: CPU time = 0.0028 secs (raw)
+MD-jeep 0.3.0
+mdjeep: only one solution is requested by the user
+mdjeep: tolerance epsilon = 0.001, resolution =  1.00
+mdjeep: tmax = 3600
+mdjeep: the previous file format of versions 0.1 and 0.2 is used for reading input file
+mdjeep: file 'nmr/DATA_EPSD_00_DMAX_60/4wua.nmr' read: 1033 vertices / 9727 distances
+mdjeep: the input instance is discretizable; the consecutivity assumption is satisfied
+mdjeep: the loaded instance contains only exact distances
+mdjeep: allocating memory... done
+mdjeep: checking symmetries... layers: 4 (time elapsed 4.86 secs)
+mdjeep: exploring the search tree ... layer    
+mdjeep: 1 solutions found 
+mdjeep: 389 branches were pruned
+mdjeep: best solution #1: LDE = 5.113456325034349e-10, MDE = 1.471241930197016e-11
+mdjeep: CPU time =    2ms 436μs 
+mdjeep: CPU time = 0.0024 secs (raw)
+MD-jeep 0.3.0
+mdjeep: only one solution is requested by the user
+mdjeep: tolerance epsilon = 0.001, resolution =  1.00
+mdjeep: tmax = 3600
+mdjeep: the previous file format of versions 0.1 and 0.2 is used for reading input file
+mdjeep: file 'nmr/DATA_EPSD_00_DMAX_60/1adx.nmr' read: 120 vertices / 1008 distances
+mdjeep: the input instance is discretizable; the consecutivity assumption is satisfied
+mdjeep: the loaded instance contains only exact distances
+mdjeep: allocating memory... done
+mdjeep: checking symmetries... layers: 4 (time elapsed 0.00 secs)
+mdjeep: exploring the search tree ... layer    
+mdjeep: 1 solutions found 
+mdjeep: 62 branches were pruned
+mdjeep: best solution #1: LDE = 4.631850458736153e-11, MDE = 5.625530000932141e-12
+mdjeep: CPU time =  214μs 
+mdjeep: CPU time = 0.00021 secs (raw)
+MD-jeep 0.3.0
+mdjeep: only one solution is requested by the user
+mdjeep: tolerance epsilon = 0.001, resolution =  1.00
+mdjeep: tmax = 3600
+mdjeep: the previous file format of versions 0.1 and 0.2 is used for reading input file
+mdjeep: file 'nmr/DATA_EPSD_00_DMAX_60/6s61.nmr' read: 522 vertices / 5298 distances
+mdjeep: the input instance is discretizable; the consecutivity assumption is satisfied
+mdjeep: the loaded instance contains only exact distances
+mdjeep: allocating memory... done
+mdjeep: checking symmetries... layers: 4 (time elapsed 0.57 secs)
+mdjeep: exploring the search tree ... layer    
+mdjeep: 1 solutions found 
+mdjeep: 387 branches were pruned
+mdjeep: best solution #1: LDE = 5.685052428816562e-11, MDE = 6.502434761550252e-13
+mdjeep: CPU time =  988μs 
+mdjeep: CPU time = 0.00099 secs (raw)
+MD-jeep 0.3.0
+mdjeep: only one solution is requested by the user
+mdjeep: tolerance epsilon = 0.001, resolution =  1.00
+mdjeep: tmax = 3600
+mdjeep: the previous file format of versions 0.1 and 0.2 is used for reading input file
+mdjeep: file 'nmr/DATA_EPSD_00_DMAX_60/4rh7.nmr' read: 9015 vertices / 85831 distances
+mdjeep: the input instance is discretizable; the consecutivity assumption is satisfied
+mdjeep: the loaded instance contains only exact distances
+mdjeep: allocating memory... done
+mdjeep: checking symmetries... layers: 4 (time elapsed 3885.49 secs)
+mdjeep: exploring the search tree ... layer    
+mdjeep: 1 solutions found 
+mdjeep: 10069 branches were pruned
+mdjeep: best solution #1: LDE = 5.370424105421989e-10, MDE = 1.629016296885508e-12
+mdjeep: CPU time =   26ms 374μs 
+mdjeep: CPU time = 0.026 secs (raw)
+MD-jeep 0.3.0
+mdjeep: only one solution is requested by the user
+mdjeep: tolerance epsilon = 0.001, resolution =  1.00
+mdjeep: tmax = 3600
+mdjeep: the previous file format of versions 0.1 and 0.2 is used for reading input file
+mdjeep: file 'nmr/DATA_EPSD_00_DMAX_60/5np0.nmr' read: 7584 vertices / 80337 distances
+mdjeep: the input instance is discretizable; the consecutivity assumption is satisfied
+mdjeep: the loaded instance contains only exact distances
+mdjeep: allocating memory... done
+mdjeep: checking symmetries... layers: 4 (time elapsed 2739.13 secs)
+mdjeep: exploring the search tree ... layer    
+mdjeep: 1 solutions found 
+mdjeep: 19903 branches were pruned
+mdjeep: best solution #1: LDE = 1.676680128070984e-09, MDE = 6.588623733221673e-12
+mdjeep: CPU time =   35ms 360μs 
+mdjeep: CPU time = 0.035 secs (raw)
+MD-jeep 0.3.0
+mdjeep: only one solution is requested by the user
+mdjeep: tolerance epsilon = 0.001, resolution =  1.00
+mdjeep: tmax = 3600
+mdjeep: the previous file format of versions 0.1 and 0.2 is used for reading input file
+mdjeep: file 'nmr/DATA_EPSD_00_DMAX_60/1all.nmr' read: 480 vertices / 4932 distances
+mdjeep: the input instance is discretizable; the consecutivity assumption is satisfied
+mdjeep: the loaded instance contains only exact distances
+mdjeep: allocating memory... done
+mdjeep: checking symmetries... layers: 4 (time elapsed 0.42 secs)
+mdjeep: exploring the search tree ... layer    
+mdjeep: 1 solutions found 
+mdjeep: 182 branches were pruned
+mdjeep: best solution #1: LDE = 4.351097260268944e-11, MDE = 8.909889069955129e-13
+mdjeep: CPU time =  909μs 
+mdjeep: CPU time = 0.00091 secs (raw)
+MD-jeep 0.3.0
+mdjeep: only one solution is requested by the user
+mdjeep: tolerance epsilon = 0.001, resolution =  1.00
+mdjeep: tmax = 3600
+mdjeep: the previous file format of versions 0.1 and 0.2 is used for reading input file
+mdjeep: file 'nmr/DATA_EPSD_00_DMAX_60/1cza.nmr' read: 2694 vertices / 26452 distances
+mdjeep: the input instance is discretizable; the consecutivity assumption is satisfied
+mdjeep: the loaded instance contains only exact distances
+mdjeep: allocating memory... done
+mdjeep: checking symmetries... layers: 4 (time elapsed 105.78 secs)
+mdjeep: exploring the search tree ... layer    
+mdjeep: 1 solutions found 
+mdjeep: 1155 branches were pruned
+mdjeep: best solution #1: LDE = 3.198774578550001e-11, MDE = 1.2982504976665e-12
+mdjeep: CPU time =    5ms  33μs 
+mdjeep: CPU time = 0.005 secs (raw)
+MD-jeep 0.3.0
+mdjeep: only one solution is requested by the user
+mdjeep: tolerance epsilon = 0.001, resolution =  1.00
+mdjeep: tmax = 3600
+mdjeep: the previous file format of versions 0.1 and 0.2 is used for reading input file
+mdjeep: file 'nmr/DATA_EPSD_00_DMAX_60/1n6t.nmr' read: 30 vertices / 236 distances
+mdjeep: the input instance is discretizable; the consecutivity assumption is satisfied
+mdjeep: the loaded instance contains only exact distances
+mdjeep: allocating memory... done
+mdjeep: checking symmetries... layers: 4 (time elapsed 0.00 secs)
+mdjeep: exploring the search tree ... layer    
+mdjeep: 1 solutions found 
+mdjeep: 23 branches were pruned
+mdjeep: best solution #1: LDE = 0.0006039337395051803, MDE = 8.324474396618773e-05
+mdjeep: CPU time =   72μs 
+mdjeep: CPU time = 7.1e-05 secs (raw)
+MD-jeep 0.3.0
+mdjeep: only one solution is requested by the user
+mdjeep: tolerance epsilon = 0.001, resolution =  1.00
+mdjeep: tmax = 3600
+mdjeep: the previous file format of versions 0.1 and 0.2 is used for reading input file
+mdjeep: file 'nmr/DATA_EPSD_00_DMAX_60/1epw.nmr' read: 3861 vertices / 35028 distances
+mdjeep: the input instance is discretizable; the consecutivity assumption is satisfied
+mdjeep: the loaded instance contains only exact distances
+mdjeep: allocating memory... done
+mdjeep: checking symmetries... layers: 4 (time elapsed 297.58 secs)
+mdjeep: exploring the search tree ... layer    
+mdjeep: 1 solutions found 
+mdjeep: 3268 branches were pruned
+mdjeep: best solution #1: LDE = 9.048131133226889e-10, MDE = 1.880559422319944e-11
+mdjeep: CPU time =    8ms 367μs 
+mdjeep: CPU time = 0.0084 secs (raw)
+MD-jeep 0.3.0
+mdjeep: only one solution is requested by the user
+mdjeep: tolerance epsilon = 0.001, resolution =  1.00
+mdjeep: tmax = 3600
+mdjeep: the previous file format of versions 0.1 and 0.2 is used for reading input file
+mdjeep: file 'nmr/DATA_EPSD_00_DMAX_60/1bdo.nmr' read: 241 vertices / 2167 distances
+mdjeep: the input instance is discretizable; the consecutivity assumption is satisfied
+mdjeep: the loaded instance contains only exact distances
+mdjeep: allocating memory... done
+mdjeep: checking symmetries... layers: 4 (time elapsed 0.06 secs)
+mdjeep: exploring the search tree ... layer    
+mdjeep: 1 solutions found 
+mdjeep: 117 branches were pruned
+mdjeep: best solution #1: LDE = 2.313083058425036e-11, MDE = 3.795256772685994e-12
+mdjeep: CPU time =  507μs 
+mdjeep: CPU time = 0.00051 secs (raw)
+MD-jeep 0.3.0
+mdjeep: only one solution is requested by the user
+mdjeep: tolerance epsilon = 0.001, resolution =  1.00
+mdjeep: tmax = 3600
+mdjeep: the previous file format of versions 0.1 and 0.2 is used for reading input file
+mdjeep: file 'nmr/DATA_EPSD_00_DMAX_60/1fw5.nmr' read: 60 vertices / 558 distances
+mdjeep: the input instance is discretizable; the consecutivity assumption is satisfied
+mdjeep: the loaded instance contains only exact distances
+mdjeep: allocating memory... done
+mdjeep: checking symmetries... layers: 4 (time elapsed 0.00 secs)
+mdjeep: exploring the search tree ... layer    
+mdjeep: 1 solutions found 
+mdjeep: 59 branches were pruned
+mdjeep: best solution #1: LDE = 0.0003777031591711832, MDE = 1.506270830847998e-05
+mdjeep: CPU time =  145μs 
+mdjeep: CPU time = 0.00014 secs (raw)
+MD-jeep 0.3.0
+mdjeep: only one solution is requested by the user
+mdjeep: tolerance epsilon = 0.001, resolution =  1.00
+mdjeep: tmax = 3600
+mdjeep: the previous file format of versions 0.1 and 0.2 is used for reading input file
+mdjeep: file 'nmr/DATA_EPSD_00_DMAX_60/6bco.nmr' read: 2856 vertices / 27090 distances
+mdjeep: the input instance is discretizable; the consecutivity assumption is satisfied
+mdjeep: the loaded instance contains only exact distances
+mdjeep: allocating memory... done
+mdjeep: checking symmetries... layers: 4 2704 2705 2706 2707 (time elapsed 105.91 secs)
+mdjeep: exploring the search tree ... layer    
+mdjeep: 1 solutions found 
+mdjeep: 1853 branches were pruned
+mdjeep: best solution #1: LDE = 6.865619184281968e-11, MDE = 4.531104040867157e-13
+mdjeep: CPU time =    6ms 599μs 
+mdjeep: CPU time = 0.0066 secs (raw)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
