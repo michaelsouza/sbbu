@@ -1,5 +1,5 @@
 # SBBU
-SBBU is an algorithm to Discretizable Molecular Distance Geometry Problems.
+SBBU is an algorithm to Discretizable Molecular Distance Geometry Problems that explores symmetries by using reflection operators.
 
 # Compilation
 To compile sbbu, just type
