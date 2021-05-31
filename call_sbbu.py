@@ -2,11 +2,6 @@ import os
 import subprocess
 import pandas as pd
 
-tmax = 10
-WDIR = ['DATA_EPSD_00_DMAX_50', 'DATA_EPSD_00_DMAX_60']
-
-solver = 'sbbu.exe' if os.name == 'nt' else './sbbu.exe'
-
 def run_cmd(cmd):
     output = [cmd + '\n']
     print(cmd)
@@ -23,27 +18,6 @@ def run_cmd(cmd):
         print(e)
     return output
 
-for wdir in WDIR:
-    FILES = []
-    for fname in os.listdir(wdir):
-        fname = os.path.join(wdir, fname)
-        if fname.endswith('.nmr'):
-            FILES.append({'name': fname, 'size': os.path.getsize(fname)})
-    FILES = sorted(FILES, key=lambda x: x['size'])
-
-    output = []
-    for k in range(len(FILES)):
-        f = FILES[k]
-        print('[%2d/%2d] %d : %s' % (k+1, len(FILES), f['size'], f['name']))
-        cmd = '%s -nmr %s -tmax %f' % (solver, f['name'], tmax)
-        output += run_cmd(cmd)
-
-    # create log file
-    flog = wdir + '.log'
-    print('saving file ' + flog)
-    with open(flog, 'w') as fid:
-        for row in output:
-            fid.write(row)
 
 def create_table(flog):
     with open(flog, 'r') as fid:
@@ -73,6 +47,31 @@ def create_table(flog):
     print(df)
     df.to_csv(ftab)
 
-for wdir in WDIR:    
-    # create table of results
-    create_table(wdir + '.log')
+if __name__ == "__main__":
+    tmax = 300
+    WDIR = ['DATA_EPSD_00_DMAX_50', 'DATA_EPSD_00_DMAX_60']
+    solver = 'sbbu.exe' if os.name == 'nt' else './sbbu.exe'
+    for wdir in WDIR:
+        FILES = []
+        for fname in os.listdir(wdir):
+            fname = os.path.join(wdir, fname)
+            if fname.endswith('.nmr'):
+                FILES.append({'name': fname, 'size': os.path.getsize(fname)})
+        FILES = sorted(FILES, key=lambda x: x['size'])
+
+        output = []
+        for k in range(len(FILES)):
+            f = FILES[k]
+            print('[%2d/%2d] %d : %s' % (k+1, len(FILES), f['size'], f['name']))
+            cmd = '%s -nmr %s -tmax %f' % (solver, f['name'], tmax)
+            output += run_cmd(cmd)
+
+        # create log file
+        flog = wdir + '.log'
+        print('saving file ' + flog)
+        with open(flog, 'w') as fid:
+            for row in output:
+                fid.write(row)
+
+        # create table of results
+        create_table(wdir + '.log')
