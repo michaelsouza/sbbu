@@ -39,7 +39,6 @@ public:
                 m_c2[i] = l * l;
             }
         }
-        // printf("%s::%d\n", __FILE__, __LINE__);
     }
 
     ~ddgp_t()
@@ -49,10 +48,15 @@ public:
         free(m_c2);
     }
 
+    /**
+     * Mean Distance Error (MDE) function
+     * @param x the vector of node coordinates
+     * @return the mean distance error
+     */
     double mde(const double *x)
     {
         int n = 0; // number of terms
-        double val = 0; // lde value
+        double val = 0; // mde value
         for (int i = 0; i < m_nnodes; ++i)
             for (int k = m_i[i]; k < m_i[i + 1]; ++k)
             {
@@ -67,10 +71,15 @@ public:
         return val / n;
     }
 
+    /**
+     * Largest Distance Error (LDE) function
+     * @param x the vector of node coordinates
+     * @return the largest distance error     
+     */
     double lde(const double *x)
     {
         int n = 0; // number of terms
-        double emax = 0; // mde value        
+        double emax = 0; // lde value        
         for (int i = 0; i < m_nnodes; ++i)
             for (int k = m_i[i]; k < m_i[i + 1]; ++k)
             {
