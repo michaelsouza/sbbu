@@ -24,7 +24,7 @@ public:
     int m_k;     // plane capacity
     double *m_a; // plane point
     double *m_n; // plane normal
-    double *m_w;
+    double *m_w; // plane constant
 
     cluster_t(ddgp_t &dgp, int v) : m_dtol(1e-7)
     {
@@ -142,7 +142,7 @@ public:
     edge_t *m_edges;
     cluster_t *m_c;
     double m_dtol;
-    int m_j;
+    int m_j;           // last solved node
 
     sbbu_t(ddgp_t &dgp, double dtol, int imax) : m_dgp(dgp)
     {

@@ -6,6 +6,8 @@ struct edge_t{
     edge_t(int i, int j, double l, double u){
         if( l < u )
         throw std::invalid_argument("Invalid edge (l > u)");
+
+        // TODO Ensure that i < j
         m_i = i;
         m_j = j;
         m_l = l;

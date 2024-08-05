@@ -104,6 +104,7 @@ public:
 
 	void assert_feasibility(const double* x)
 	{
+        // TODO DRY this code by using feasible() method
 		for (int i = 0; i < m_nnodes; ++i)
 			for (int k = m_i[i]; k < m_i[i + 1]; ++k)
 			{
