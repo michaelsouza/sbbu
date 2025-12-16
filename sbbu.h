@@ -160,7 +160,7 @@ public:
         init_edges();
 
         // init m_x;
-        m_x = (double *)malloc(3 * m_nnodes * sizeof(double));
+        m_x = (double *)calloc(3 * m_nnodes, sizeof(double));
         init_x();
 
         // init m_c
@@ -345,15 +345,18 @@ public:
         m_root[i] = r;
     }
 
-    void save(std::string fname)
+    void save(const std::string &fname)
     {
-        char fsol[FILENAME_MAX];
-        strcpy(fsol, fname.c_str());
-        char *p = strstr(fsol, ".nmr"); // returns a pointer to the first occurrence of ".nmr"
-        sprintf(p, "_sbbu.sol");         // replace suffix
+        std::string fsol = fname;
+        // replace suffix by _sbbu.sol
+        const auto slash_pos = fsol.find_last_of("/\\");
+        const auto dot_pos = fsol.find_last_of('.');
+        if (dot_pos != std::string::npos && (slash_pos == std::string::npos || dot_pos > slash_pos))
+            fsol.erase(dot_pos);
+        fsol += "_sbbu.sol";
 
-        printf("SBBU: saving solution on %s\n", fsol);
-        FILE *fid = fopen(fsol, "w");
+        printf("SBBU: saving solution on %s\n", fsol.c_str());
+        FILE *fid = fopen(fsol.c_str(), "w");
         if (fid == NULL)
             throw std::runtime_error("The solution file could not be created.");
         for (auto k = 0; k < m_nnodes; ++k)
@@ -395,14 +398,14 @@ public:
         double *xi = &m_x[3 * edge.m_i];
         double *xj = &m_x[3 * edge.m_j];
         int niters = 0;
-        double emin = 1E+99, eij;
+        double emin = 1E+99;
 #ifdef DEBUG
         double tic = omp_get_wtime();
         printf("solving edge i=%d j=%d l=%g u=%g kmax=%d\n",
                edge.m_i, edge.m_j, edge.m_l, edge.m_u, kmax);
+        double emin_last = 0;
 #endif
         // get the decision with the smallest error
-        double emin_last;
         int nsols = 0;
         for (int k = kmax, count = 0; count < m_imax; ++count)
         {
@@ -413,7 +416,9 @@ public:
             {
                 for (int i = 0; i <= kmax; ++i)
                     m_fopt[i] = m_f[i];
+#ifdef DEBUG
                 emin_last = emin;
+#endif
                 emin = eij;
                 if (emin < m_dtol)
                     nsols++;

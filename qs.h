@@ -47,6 +47,7 @@ void mat3x3_cramer(double *x, double A[3][3], double *y)
 
 void qs_p(double *P, const double *N, const double *A, double ax2, const double *B, double bx2, const double *C, double cx2, double dtol)
 {
+    (void)dtol; // used only in DEBUG mode
     double A2 = vec3_norm(A);
     double B2 = vec3_norm(B);
     double C2 = vec3_norm(C);
