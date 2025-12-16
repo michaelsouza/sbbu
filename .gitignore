@@ -1,3 +1,5 @@
+.venv
+__pycache__
 sbbu.exe
 DATA_EPSD_00_DMAX_50/**
 DATA_EPSD_00_DMAX_60/**
