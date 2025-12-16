@@ -2,9 +2,26 @@ import os
 import subprocess
 import pandas as pd
 
+from rich.console import Console
+from rich.progress import (
+    BarColumn,
+    Progress,
+    SpinnerColumn,
+    TextColumn,
+    TimeElapsedColumn,
+    TimeRemainingColumn,
+)
+from rich.table import Table
+from rich.traceback import install as rich_traceback_install
+
+rich_traceback_install(show_locals=False)
+console = Console()
+
+
 def run_cmd(cmd):
+    verbose = os.environ.get("SBBU_VERBOSE", "").lower() in {"1", "true", "yes", "y"}
     output = [cmd + '\n']
-    print(cmd)
+    console.print(f"[dim]$ {cmd}[/dim]")
     try:
         if os.name == 'nt':  # windows
             cmd_out = subprocess.check_output(cmd, shell=True).decode('windows-1252')
@@ -12,10 +29,20 @@ def run_cmd(cmd):
             cmd_out = subprocess.check_output(cmd, shell=True).decode('utf-8')
         cmd_out = cmd_out.split('\n')
         for line in cmd_out:
-            print(line)
+            if verbose:
+                console.print(line)
             output.append(line + '\n')
     except subprocess.CalledProcessError as e:
-        print(e)
+        console.print(f"[red]Command failed[/red]: {e}")
+        if getattr(e, "output", None):
+            try:
+                out = e.output.decode("utf-8", errors="replace").splitlines()
+                for line in out:
+                    if verbose:
+                        console.print(line)
+                    output.append(line + "\n")
+            except Exception:
+                pass
     return output
 
 
@@ -43,8 +70,13 @@ def create_table(flog):
 
     df = pd.DataFrame.from_dict(df)
     ftab = flog.replace('.log', '.csv')
-    print('\nTABLE ' + ftab)
-    print(df)
+    console.print(f"\n[bold]TABLE[/bold] {ftab}")
+    table = Table(show_header=True, header_style="bold")
+    for col in df.columns:
+        table.add_column(str(col))
+    for _, row in df.iterrows():
+        table.add_row(*[("" if pd.isna(v) else str(v)) for v in row.tolist()])
+    console.print(table)
     df.to_csv(ftab)
 
 if __name__ == "__main__":
@@ -52,6 +84,7 @@ if __name__ == "__main__":
     WDIR = ['DATA_EPSD_00_DMAX_50', 'DATA_EPSD_00_DMAX_60']
     solver = 'sbbu.exe' if os.name == 'nt' else './sbbu.exe'
     for wdir in WDIR:
+        console.rule(f"[bold]{wdir}[/bold]")
         FILES = []
         for fname in os.listdir(wdir):
             fname = os.path.join(wdir, fname)
@@ -60,15 +93,29 @@ if __name__ == "__main__":
         FILES = sorted(FILES, key=lambda x: x['size'])
 
         output = []
-        for k in range(len(FILES)):
-            f = FILES[k]
-            print('[%2d/%2d] %d : %s' % (k+1, len(FILES), f['size'], f['name']))
-            cmd = '%s -nmr %s -tmax %f' % (solver, f['name'], tmax)
-            output += run_cmd(cmd)
+        progress = Progress(
+            SpinnerColumn(),
+            TextColumn("[progress.description]{task.description}"),
+            BarColumn(),
+            TextColumn("{task.completed}/{task.total}"),
+            TimeElapsedColumn(),
+            TimeRemainingColumn(),
+            console=console,
+        )
+        with progress:
+            task_id = progress.add_task("Running", total=len(FILES))
+            for k, f in enumerate(FILES, start=1):
+                progress.update(
+                    task_id,
+                    description=f"[{k}/{len(FILES)}] {f['size']} : {f['name']}",
+                )
+                cmd = '%s -nmr %s -tmax %f' % (solver, f['name'], tmax)
+                output += run_cmd(cmd)
+                progress.advance(task_id, 1)
 
         # create log file
         flog = wdir + '.log'
-        print('saving file ' + flog)
+        console.print(f"[dim]saving file {flog}[/dim]")
         with open(flog, 'w') as fid:
             for row in output:
                 fid.write(row)
